@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About NovaCartX — our mission, team, and values. We bring the future of shopping to your doorstep.">
+  <title>About Us — NovaCartX</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-logo">Nova<span>Cart</span>X</div>
+  <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+</div>
+<div id="toast-container"></div>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Nova<span>Cart</span>X</a>
+    <div class="nav-search">
+      <span class="nav-search-icon">🔍</span>
+      <input type="text" id="nav-search" placeholder="Search products, brands…">
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="nav-btn" id="theme-toggle" title="Toggle theme">🌙</button>
+      <a href="login.html" class="nav-btn" title="Account">👤</a>
+      <a href="cart.html" class="nav-btn" title="Cart" style="position:relative;">
+        🛒 <span class="nav-badge cart-badge">0</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">🏠 Home</a>
+  <a href="products.html">🛍 Products</a>
+  <a href="cart.html">🛒 Cart</a>
+  <a href="login.html">👤 Account</a>
+  <a href="about.html">ℹ️ About</a>
+  <a href="contact.html">📬 Contact</a>
+</div>
+<button id="back-to-top" title="Back to top">↑</button>
+
+<!-- About Hero -->
+<section class="about-hero">
+  <div class="container">
+    <div class="about-hero-grid">
+      <div class="scroll-reveal">
+        <span class="section-label">Our Story</span>
+        <h1 class="section-title" style="margin-top:0.75rem;">We're Building the<br>Future of Commerce</h1>
+        <p style="color:var(--text-muted);line-height:1.75;margin-top:1.5rem;font-size:1.05rem;">
+          NovaCartX was founded with a bold vision: to merge cutting-edge technology with seamless shopping experiences. 
+          We believe everyone deserves access to tomorrow's innovations — today. From quantum-powered audio to biotech skincare, 
+          we curate only the best futuristic products for our community of forward-thinkers.
+        </p>
+        <p style="color:var(--text-muted);line-height:1.75;margin-top:1rem;font-size:1.05rem;">
+          Since our launch, we've grown to serve over 120,000 happy customers across 120+ countries, 
+          and we're just getting started. Welcome to the future.
+        </p>
+        <div class="hero-stats" style="margin-top:2rem;">
+          <div>
+            <div class="hero-stat-num">120K+</div>
+            <div class="hero-stat-label">Customers</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">120+</div>
+            <div class="hero-stat-label">Countries</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">99.2%</div>
+            <div class="hero-stat-label">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-image scroll-reveal">
+        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600&q=80" alt="NovaCartX team working together">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Values Section -->
+<section class="values-section">
+  <div class="container">
+    <div class="section-header scroll-reveal">
+      <span class="section-label">What Drives Us</span>
+      <h2 class="section-title">Our Core Values</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card scroll-reveal scroll-reveal-delay-1">
+        <div class="value-icon">🚀</div>
+        <div class="value-title">Innovation First</div>
+        <p class="value-text">We rigorously test and curate only products that push the boundaries of what's possible, so you get tomorrow's technology today.</p>
+      </div>
+      <div class="value-card scroll-reveal scroll-reveal-delay-2">
+        <div class="value-icon">💎</div>
+        <div class="value-title">Quality Obsessed</div>
+        <p class="value-text">Every product in our catalog passes a 30-point quality check. We stand behind everything we sell with our satisfaction guarantee.</p>
+      </div>
+      <div class="value-card scroll-reveal scroll-reveal-delay-3">
+        <div class="value-icon">🌍</div>
+        <div class="value-title">Globally Accessible</div>
+        <p class="value-text">We ship to over 120 countries with lightning-fast delivery. The future shouldn't have borders.</p>
+      </div>
+      <div class="value-card scroll-reveal scroll-reveal-delay-1">
+        <div class="value-icon">🤝</div>
+        <div class="value-title">Customer Centric</div>
+        <p class="value-text">Our 24/7 support team ensures you have the best shopping experience. Your satisfaction is our top priority.</p>
+      </div>
+      <div class="value-card scroll-reveal scroll-reveal-delay-2">
+        <div class="value-icon">♻️</div>
+        <div class="value-title">Sustainability</div>
+        <p class="value-text">We partner with eco-conscious brands and use 100% recyclable packaging because the future must be green.</p>
+      </div>
+      <div class="value-card scroll-reveal scroll-reveal-delay-3">
+        <div class="value-icon">⚡</div>
+        <div class="value-title">Speed & Reliability</div>
+        <p class="value-text">From one-click checkout to same-day processing, we move fast so you don't have to wait.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Section -->
+<section class="team-section">
+  <div class="container">
+    <div class="section-header scroll-reveal">
+      <span class="section-label">Meet the Team</span>
+      <h2 class="section-title">The Minds Behind NovaCartX</h2>
+      <p class="section-sub">A passionate team of engineers, designers, and futurists.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card scroll-reveal scroll-reveal-delay-1">
+        <img class="team-img" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80" alt="Alex Chen">
+        <div class="team-info">
+          <div class="team-name">Alex Chen</div>
+          <div class="team-role">CEO & Co-Founder</div>
+        </div>
+      </div>
+      <div class="team-card scroll-reveal scroll-reveal-delay-2">
+        <img class="team-img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&q=80" alt="Maya Johnson">
+        <div class="team-info">
+          <div class="team-name">Maya Johnson</div>
+          <div class="team-role">CTO</div>
+        </div>
+      </div>
+      <div class="team-card scroll-reveal scroll-reveal-delay-3">
+        <img class="team-img" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&q=80" alt="Ravi Patel">
+        <div class="team-info">
+          <div class="team-name">Ravi Patel</div>
+          <div class="team-role">Head of Product</div>
+        </div>
+      </div>
+      <div class="team-card scroll-reveal scroll-reveal-delay-4">
+        <img class="team-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&q=80" alt="Sofia Martinez">
+        <div class="team-info">
+          <div class="team-name">Sofia Martinez</div>
+          <div class="team-role">Head of Design</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter-section">
+  <div class="container">
+    <div class="newsletter-card scroll-reveal">
+      <div class="newsletter-icon">📡</div>
+      <h3 class="newsletter-title">Join the Future</h3>
+      <p class="newsletter-sub">Subscribe for exclusive deals, new arrivals, and futuristic finds.</p>
+      <form class="newsletter-form">
+        <input class="newsletter-input" type="email" placeholder="Enter your email address…" required>
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Nova<span>Cart</span>X</div>
+        <p class="footer-desc">The future of online shopping. Curated futuristic products delivered to your door.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn" title="Twitter/X">𝕏</a>
+          <a href="#" class="social-btn" title="Instagram">📸</a>
+          <a href="#" class="social-btn" title="Facebook">𝑓</a>
+          <a href="#" class="social-btn" title="YouTube">▶</a>
+          <a href="#" class="social-btn" title="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Shop</h4><ul>
+        <li><a href="products.html">All Products</a></li>
+        <li><a href="products.html?cat=electronics">Electronics</a></li>
+        <li><a href="products.html?cat=fashion">Fashion</a></li>
+        <li><a href="products.html?cat=home">Home & Living</a></li>
+        <li><a href="products.html?cat=beauty">Beauty</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Account</h4><ul>
+        <li><a href="login.html">Login / Register</a></li>
+        <li><a href="cart.html">My Cart</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Help</h4><ul>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 NovaCartX. All rights reserved.</span>
+      <span>Made with ⚡ for the future</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
