@@ -30,12 +30,12 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build and push image
+      - name: Build and push Docker image
         uses: docker/build-push-action@v4
         with:
           context: .
           file: Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ tharunadhithyaa }}/novacartx:latest
-            ghcr.io/${{ tharunadhithyaa }}/novacartx:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner_id }}/novacartx:latest
+            ghcr.io/${{ github.repository_owner_id }}/novacartx:${{ github.sha }}
